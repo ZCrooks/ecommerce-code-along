@@ -18,15 +18,15 @@
 
 // NAV BAR 
 .navBar {
-    position: sticky;
+    position: relative;
     top: 0; 
     z-index: 10;
     border-bottom: 1px solid rgba (8, 75, 109, 0.08);
-    // .wrapper {
-    //     display: flex;
-    //     justify-content: space-between;
-    //     padding: 20px 0;
-    // }
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0;
+    }
 }
 
 .searchCart {
