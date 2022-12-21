@@ -54,13 +54,13 @@
     max-width: 500px;
     position: fixed;
     top: 0;
-    // left: -500px;
+    left: -500px;
     padding: 35px 50px;
     .buttonContainer {
         display: flex;
         justify-content: flex-end;
         button {
-            padding: 10px 0 10px ;
+            padding: 10px;
         }
     }
 }
