@@ -1,3 +1,5 @@
+
+
 .skipLink {
     font-size: 1rem;
     padding: 10px;
@@ -20,12 +22,11 @@
     top: 0; 
     z-index: 10;
     border-bottom: 1px solid rgba (8, 75, 109, 0.08);
-    .wrapper {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px 0;
-    }
+    // .wrapper {
+    //     display: flex;
+    //     justify-content: space-between;
+    //     padding: 20px 0;
+    // }
 }
 
 .searchCart {

@@ -228,8 +228,6 @@ img {
 
 /* site fonts */
 /* site colours */
-/* site fonts */
-/* site colours */
 /* import Jakarta Sans font */
 @font-face {
   font-family: "Jakarta Sans";
@@ -390,7 +388,7 @@ button.menuIcon:focus {
 a.button {
   color: #084b6d;
   background-color: transparent;
-  padding: 18px 36px;
+  padding: 18px 3px;
   border: 2px solid #084b6d;
   font-size: 2rem;
   font-weight: bold;
@@ -429,18 +427,6 @@ a.button:focus {
   top: 0;
   z-index: 10;
   border-bottom: 1px solid rgba 8, 75, 109, 0.08;
-}
-.navBar .wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 20px 0;
 }
 
 .searchCart {
@@ -526,6 +512,8 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 header .headerImgContainer {
   width: 45%;
@@ -537,4 +525,66 @@ header .headerContent {
 header .headerContent .contentContainer {
   width: 65%;
   margin: 0 auto;
+}
+
+.categories {
+  margin-bottom: 90px;
+}
+
+.categoryGallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+  width: 100%;
+}
+.categoryGallery .items {
+  width: 40%;
+}
+.categoryGallery .items a {
+  border-radius: 10%;
+  padding: 25px;
+  margin: 50px 25px 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+.categoryGallery .items a img {
+  border-radius: 10%;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.categoryGallery .items a:hover {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+.categoryGallery .items a:focus {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+.categoryGallery .item1 a {
+  background-color: #ffd698;
+}
+.categoryGallery .item2 a {
+  background-color: #f4fcff;
+}
+.categoryGallery .item3 a {
+  background-color: #f8fbf3;
+}
+.categoryGallery .item4 a {
+  background-color: #fff5f5;
 }
